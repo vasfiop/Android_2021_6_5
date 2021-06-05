@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!--    TODO 轮播图-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/clickred"
+        android:text="轮播图" />
+
+    <!--    TODO 需要解决一下ScrolView嵌套GridView的问题-->
+
+    <TextView
+        style="@style/FS_fragmentfirst_textview"
+        android:layout_marginBottom="10dp"
+        android:text="@string/changyongfenlei" />
+
+    <GridView
+        android:id="@+id/FS_gridview_first"
+        style="@style/height_alone"
+        android:numColumns="3"
+        android:scrollbars="none" />
+
+</LinearLayout>

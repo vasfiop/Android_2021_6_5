@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PP"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/widthmargin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--        第一行-->
+
+            <ImageButton
+                style="@style/big_imgbtn"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <View style="@style/width_alone" />
+
+            <LinearLayout
+                style="@style/CP"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/big_imgbtn"
+                    android:layout_gravity="center"
+                    android:background="@color/red"
+                    android:src="@drawable/erweima" />
+
+                <ImageButton
+                    style="@style/big_imgbtn"
+                    android:layout_gravity="center"
+                    android:background="@color/red"
+                    android:src="@drawable/news" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/widthmargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corners_homepage_search"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/small_img"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/search" />
+
+            <Button
+                android:id="@+id/HP_btn_search"
+                android:layout_width="0dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:stateListAnimator="@null" />
+
+            <ImageButton
+                style="@style/small_img"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:src="@drawable/homepage_zhaoxiangji" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <HorizontalScrollView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:scrollbars="none">
+
+                <RadioGroup
+                    android:id="@+id/HP_radiogroup_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--分类-->
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_home"
+                        style="@style/radiobtn"
+                        android:layout_marginLeft="0dp"
+                        android:checked="true"
+                        android:text="@string/shouye"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_pc"
+                        style="@style/radiobtn"
+                        android:text="@string/diannaobangong"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_phone"
+                        style="@style/radiobtn"
+                        android:text="@string/shouji"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_food"
+                        style="@style/radiobtn"
+                        android:text="@string/shipinjiuyin"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_free"
+                        style="@style/radiobtn"
+                        android:text="@string/shengxian"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_1"
+                        style="@style/radiobtn"
+                        android:text="@string/yundonghuwai"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/HP_radiobtn_2"
+                        style="@style/radiobtn"
+                        android:text="@string/nanzhuang"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            </HorizontalScrollView>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableLeft="@drawable/homepage_anniu"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="@string/fenlei"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/HP_viewpaget_first"
+        style="@style/height_alone" />
+
+</LinearLayout>

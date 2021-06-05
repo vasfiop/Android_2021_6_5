@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/include_LinearLayout"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/txt"
+            android:text="@string/wode618" />
+
+        <LinearLayout style="@style/width_alone" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/yuantouhaowu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <ImageButton
+                style="@style/imgbtn"
+                android:src="@drawable/me_618_1" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginBottom="0dp"
+                android:text="@string/zhuhuichang"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginTop="0dp"
+                android:text="@string/haowuyushou" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <ImageButton
+                style="@style/imgbtn"
+                android:src="@drawable/me_618_2" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginBottom="0dp"
+                android:text="@string/reaikuanghuan"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginTop="0dp"
+                android:text="@string/guafen20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <ImageButton
+                style="@style/imgbtn"
+                android:src="@drawable/me_618_3" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginBottom="0dp"
+                android:text="@string/pinpaikuanghuan"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginTop="0dp"
+                android:text="@string/mianxisonghaoli" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <ImageButton
+                style="@style/imgbtn"
+                android:src="@drawable/me_618_4" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginBottom="0dp"
+                android:text="@string/baitiaotege"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/small_txt"
+                android:layout_marginTop="0dp"
+                android:text="@string/zuigai" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

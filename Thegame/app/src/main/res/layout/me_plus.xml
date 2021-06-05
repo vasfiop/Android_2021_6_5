@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/include_LinearLayout"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        style="@style/width_1"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="适用PLUS" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="免费领运费卷" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="省钱好物" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="内存热销中" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="9.9元疯抢" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_gravity="center_vertical"
+            android:text="新人百元补贴" />
+
+    </LinearLayout>
+
+</LinearLayout>

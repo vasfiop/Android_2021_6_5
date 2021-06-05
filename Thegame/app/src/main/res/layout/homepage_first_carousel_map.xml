@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MF_viewflipper_first"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:flipInterval="3000"
+    android:inAnimation="@anim/right_in"
+    android:outAnimation="@anim/right_out">
+
+    <include layout="@layout/viewflipper_homepage_first_item_1" />
+
+    <include layout="@layout/viewflipper_homepage_first_item_2" />
+
+    <include layout="@layout/viewflipper_homepage_first_item_3" />
+
+</ViewFlipper>

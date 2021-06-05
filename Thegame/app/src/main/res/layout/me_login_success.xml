@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/widthmargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageButton
+        style="@style/imgbtn"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        style="@style/PP"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/LA_txt_username"
+            style="@style/height_1"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:text="Darling京东"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            style="@style/height_1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CC"
+                android:gravity="center_vertical"
+                android:text="@string/jingxiangzhi" />
+
+            <TextView
+                style="@style/CC"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/xiaobaichengzhangfen" />
+
+            <TextView
+                style="@style/CC"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/jiatinghao" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

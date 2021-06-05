@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/widthmargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageButton
+        style="@style/imgbtn"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        style="@style/CP"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ME_btn_login"
+            style="@style/txt_h2"
+            android:background="@color/white"
+            android:stateListAnimator="@null"
+            android:text="登陆/注册 >" />
+
+    </LinearLayout>
+
+</LinearLayout>

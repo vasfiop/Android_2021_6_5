@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/white">
+
+    <RadioGroup
+        style="@style/widthmargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="5"
+            android:rowCount="2">
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/supermarket"
+                android:text="@string/jingdongchaoshi" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:drawableTop="@drawable/electricalappliances"
+                android:text="@string/jingdongdianqi" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:drawableTop="@drawable/shoe"
+                android:text="@string/chaoliufushi" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:drawableTop="@drawable/fruiter"
+                android:text="@string/mianfeishuiguo" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:drawableTop="@drawable/gohome"
+                android:text="@string/jingdongdaojia" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:drawableTop="@drawable/mobilephone"
+                android:text="@string/shenghuofuwu" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:drawableTop="@drawable/beans"
+                android:text="@string/beans" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:drawableTop="@drawable/vouchers"
+                android:text="@string/lingjuan" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="1"
+                android:layout_column="3"
+                android:drawableTop="@drawable/wallet"
+                android:text="@string/jieqian" />
+
+            <RadioButton
+                style="@style/multi_function"
+                android:layout_row="1"
+                android:layout_column="4"
+                android:drawableTop="@drawable/crown"
+                android:text="@string/PLUShuiyuan" />
+
+        </GridLayout>
+    </RadioGroup>
+</LinearLayout>

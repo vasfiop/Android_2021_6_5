@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/HP_viewpager_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/HP_radiogroup_bottom"
+        style="@style/PC"
+        android:background="@color/bggray"
+        android:orientation="horizontal">
+        <!--底部按钮组-->
+
+        <RadioButton
+            android:id="@+id/HP_radiobtn_homepage"
+            style="@style/HP_bottom_btn"
+            android:checked="true"
+            android:drawableTop="@drawable/homepage_selector"
+            android:text="@string/shouye"
+            android:textColor="@drawable/selector_home_text" />
+
+        <RadioButton
+            android:id="@+id/HP_radiobtn_sort"
+            style="@style/HP_bottom_btn"
+            android:drawableTop="@drawable/sort_selector"
+            android:text="@string/fenlei"
+            android:textColor="@drawable/selector_home_text" />
+
+        <RadioButton
+            android:id="@+id/HP_radiobtn_find"
+            style="@style/HP_bottom_btn"
+            android:drawableTop="@drawable/find_selector"
+            android:text="@string/faxian"
+            android:textColor="@drawable/selector_home_text" />
+
+        <RadioButton
+            android:id="@+id/HP_radiobtn_car"
+            style="@style/HP_bottom_btn"
+            android:drawableTop="@drawable/car_selector"
+            android:text="@string/gouwuche"
+            android:textColor="@drawable/selector_home_text" />
+
+        <RadioButton
+            android:id="@+id/HP_radiobtn_me"
+            style="@style/HP_bottom_btn"
+            android:drawableTop="@drawable/me_selector"
+            android:text="@string/wode"
+            android:textColor="@drawable/selector_home_text" />
+
+    </RadioGroup>
+
+</LinearLayout>

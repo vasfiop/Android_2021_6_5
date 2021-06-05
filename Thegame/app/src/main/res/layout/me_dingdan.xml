@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/include_LinearLayout"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/yinhangka" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/daifukuan"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/daishoukuan" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/daishouhuo"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/daipingjia" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/daipingjia"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tuikuan" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/tuihuanshouhou"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/red" />
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wodedingdan" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/wodedingdan"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/chakandianzifapiao" />
+
+    </LinearLayout>
+
+</LinearLayout>

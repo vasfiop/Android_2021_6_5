@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/widthmargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/FM_btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:text="登出" />
+
+    <LinearLayout style="@style/width_alone" />
+
+    <ImageButton
+        style="@style/small_imgbtn"
+        android:src="@drawable/gerenzhongxin" />
+
+    <ImageButton
+        style="@style/small_imgbtn"
+        android:src="@drawable/setting" />
+
+    <ImageButton
+        style="@style/small_imgbtn"
+        android:src="@drawable/liaotian_red" />
+
+</LinearLayout>
+
+

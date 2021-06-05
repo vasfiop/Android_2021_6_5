@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/LA_imgbtn_back"
+            style="@style/small_imgbtn"
+            android:src="@drawable/me_zuojiantou" />
+
+        <LinearLayout style="@style/width_alone" />
+
+        <RadioButton
+            style="@style/small_radiobtn"
+            android:layout_gravity="center"
+            android:text="帮助"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PC"
+        android:gravity="center">
+
+        <ImageView
+            style="@style/big_img"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/corners_128" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/LA_edittxt_username"
+            style="@style/PC"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corners_42"
+            android:hint="用户名/邮箱/手机号"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp" />
+
+        <EditText
+            android:id="@+id/LA_edittxt_password"
+            style="@style/PC"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/corners_42"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/LA_btn_login"
+            style="@style/PC"
+            android:background="@drawable/corners_50"
+            android:text="登陆"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/LA_btn_register"
+            style="@style/PC"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corners_50"
+            android:text="注册"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PC"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/small_btn"
+            android:background="@color/white"
+            android:stateListAnimator="@null"
+            android:text="新用户注册" />
+
+        <Button
+            style="@style/small_btn"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:stateListAnimator="@null"
+            android:text="短信验证码登陆" />
+
+        <Button
+            style="@style/small_btn"
+            android:background="@color/white"
+            android:stateListAnimator="@null"
+            android:text="忘记密码" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/height_alone"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <TextView
+            style="@style/small_txt"
+            android:text="其他登陆方式" />
+
+        <LinearLayout
+            style="@style/PC"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                style="@style/small_imgbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/test_red_16" />
+
+            <ImageButton
+                style="@style/small_imgbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/test_red_16" />
+
+            <ImageButton
+                style="@style/small_imgbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/test_red_16" />
+
+            <ImageButton
+                style="@style/small_imgbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/test_red_16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

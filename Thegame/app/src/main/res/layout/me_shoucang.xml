@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/widthmargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/shangpinshoucang" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/dianpuguanzhu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/xihuandeneirong" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/liulanjilu" />
+
+    </LinearLayout>
+
+</LinearLayout>

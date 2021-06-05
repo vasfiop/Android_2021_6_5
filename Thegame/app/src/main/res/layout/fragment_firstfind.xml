@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bggray"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <!--    TODO 实现 你还没有关注的人哟-->
+    <ImageView
+        style="@style/PC"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:src="@drawable/logo" />
+
+    <!--    TODO 实现一个特别花里胡哨的标题性文字-->
+    <TextView
+        style="@style/PC"
+        android:background="@color/bggray"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/weinituijian"
+        android:textColor="@color/black" />
+
+    <ListView
+        android:id="@+id/FF_listview"
+        style="@style/PC"
+        android:background="@color/bggray"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none" />
+
+</LinearLayout>
+
+

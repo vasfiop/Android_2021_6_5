@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/FS_expandable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/FS_radiogroup_rightsortsecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_1"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:checked="true"
+                android:text="@string/xiuxianlingshi"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_2"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/zhongwaimingjiu"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_3"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/jingdongshengxian"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_4"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/liangyoutiaowei"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_5"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/shuiyinmingcha"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_6"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/jinkoushipin"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_7"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/yingyangbaojian"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+            <RadioButton
+                android:id="@+id/FS_radiobtn_rightsortsecond_8"
+                style="@style/FS_radiobtn_rightsort_second"
+                android:text="@string/muyingwanju"
+                android:textColor="@drawable/selector_rightsort_second_radiobtn" />
+
+        </RadioGroup>
+
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/FS_viewpager_right_second_fragment"
+        style="@style/height_alone" />
+
+</LinearLayout>

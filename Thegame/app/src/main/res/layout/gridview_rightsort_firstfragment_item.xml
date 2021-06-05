@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageButton
+        android:id="@+id/FS_imgbtn_firstfragment"
+        style="@style/FS_gridview_imgbtn"
+        android:src="@drawable/dianyaliguo" />
+
+    <TextView
+        android:id="@+id/FS_textview_firstfragment"
+        style="@style/small_txt"
+        android:text="@string/dianyaliguo"
+        android:textColor="@color/black" />
+
+</LinearLayout>

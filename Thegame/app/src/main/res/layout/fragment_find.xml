@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical">
+    <!--    TODO 可能需要更改一下背景颜色-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <LinearLayout style="@style/width_2">
+
+            <!--            TODO 头像需要改成圆角-->
+            <ImageButton
+                style="@style/CC"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/FF_radiogroup_top"
+            style="@style/width_4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--            TODO 需要更改一下按钮的点击变换效果-->
+
+            <RadioButton
+                android:id="@+id/FF_radiobtn_guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:button="@null"
+                android:text="@string/guanzhu" />
+
+            <RadioButton
+                android:id="@+id/FF_radiobtn_tuijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:button="@null"
+                android:text="@string/tuijian" />
+
+        </RadioGroup>
+
+        <LinearLayout style="@style/width_2">
+
+            <!--            TODO 放大镜需要改成圆角-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search" />
+            <!--            TODO 评价按钮也需要改成圆角-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/FF_viewpage_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

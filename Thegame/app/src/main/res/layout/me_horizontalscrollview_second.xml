@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/PC"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/kehufuwu"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/jingdonghuiyuan"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/jijianfuwu"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/dongdongmengchong"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/chongwangwang"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/fengkuangdejoy"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/wodeyuyue"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/dongdongaixiaochu"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/test_red_32" />
+
+                <TextView
+                    style="@style/small_txt"
+                    android:text="@string/jijianfuwu"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/height_1"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        style="@style/PC"-->
+    <!--        android:gravity="center">-->
+
+    <!--        <ProgressBar-->
+    <!--            style="?android:attr/progressBarStyleHorizontal"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:progress="50" />-->
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

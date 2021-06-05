@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/PP"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/FF_img_second"
+        style="@style/PC"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/FF_txt_second_speak"
+        style="@style/PC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/test" />
+
+    <LinearLayout
+        style="@style/PC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageButton
+            android:id="@+id/FF_imgbtn_headsecond"
+            style="@style/small_imgbtn"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/FF_txt_second_name"
+            style="@style/CP"
+            android:gravity="center_vertical"
+            android:text="@string/jingtanzhe" />
+
+        <LinearLayout style="@style/width_alone" />
+
+        <ImageView
+            style="@style/CC"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/guancha" />
+
+        <TextView
+            android:id="@+id/FF_txt_shownum"
+            style="@style/CP"
+            android:gravity="center_vertical"
+            android:text="@string/test" />
+
+    </LinearLayout>
+
+</LinearLayout>

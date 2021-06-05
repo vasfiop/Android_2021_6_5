@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thegame</string>
+
+    <string name="faxian">find</string>
+    <string name="fenlei">sort</string>
+    <string name="gouwuche">shopping cart</string>
+    <string name="wode">my</string>
+
+    <!--    homepage-->
+    <string name="shouye">home page</string>
+    <string name="shipin">food</string>
+    <string name="shengxian">fresh</string>
+    <string name="diannaobangong">Computer office</string>
+    <string name="shouji">mobile phone</string>
+    <string name="shipinjiuyin">food and wine</string>
+
+
+    <string name="jingtanzhe">京探者</string>
+
+    <string name="xinpinshoufa">新品首发</string>
+
+    <string name="yuantouhaowu">源头好物</string>
+
+    <string name="zhuhuichang">主会场</string>
+    <string name="yiyaojiankang">医药健康</string>
+    <string name="haowuyushou">好物预售中</string>
+    <string name="shuma">数码</string>
+    <string name="reaikuanghuan">热爱狂欢趴</string>
+    <string name="jingdongchaoshi">京东超市</string>
+    <string name="guafen20">瓜分20亿</string>
+    <string name="jingdongdianqi">京东电器</string>
+    <string name="pinpaikuanghuan">品牌狂欢</string>
+    <string name="chaoliufushi">潮流服饰</string>
+    <string name="mianxisonghaoli">免息送好礼</string>
+    <string name="mianfeishuiguo">免费水果</string>
+    <string name="baitiaotege">白条提额</string>
+    <string name="jingdongdaojia">京东到家</string>
+    <string name="zuigai">最高100000元</string>
+    <string name="chongzhijiaofei">充值缴费</string>
+    <string name="lingjingdou">领京豆大礼包</string>
+    <string name="jingdongnongchang">京东农场</string>
+    <string name="lingjuan">领劵</string>
+    <string name="jieqian">借钱</string>
+    <string name="yingyangbaojian">营养保健</string>
+    <string name="muyingwanju">母婴玩具</string>
+    <string name="PLUShuiyuan">PLUS会员</string>
+    <string name="chongwangwang">宠汪汪</string>
+    <string name="jingdongmiaosha">京东秒杀</string>
+
+    <string name="jingdongzhibo">京东直播</string>
+
+    <string name="meiritejia">每日特价</string>
+
+    <string name="paihangbang">排行榜</string>
+
+    <string name="faxianhaohuo">发现好货</string>
+
+    <string name="pinpaishangou">品牌闪购</string>
+    <string name="pinpaijingxuan">品牌精选</string>
+    <string name="xiaomofang">小魔方</string>
+
+    <string name="xiaoyuanzhuanqu">校 园 专 区</string>
+
+    <string name="jingdongxiaoyuan">京东校园</string>
+    <string name="jingdongxiaojinku">京东小金库</string>
+    <string name="tongxuedouzaimai">同学都在买</string>
+    <string name="zuorishouyi">昨日收益</string>
+    <string name="youxiguizu">游戏贵族</string>
+    <string name="youhuijuan">优惠卷</string>
+    <string name="haoli">520好礼</string>
+    <string name="butie">30亿补贴</string>
+    <string name="null_str"> </string>
+    <string name="lingjuanzhongxin">领劵中心</string>
+
+    <string name="tuijianfenlei">推荐分类</string>
+
+
+    <string name="jingdongguoji">京东国际</string>
+
+    <string name="gehuqingli">个护清理</string>
+
+    <string name="jiadian">家电</string>
+
+    <string name="chongwuxianhua">宠物鲜花</string>
+
+    <string name="nanzhuang">男装</string>
+
+    <string name="yiliaobaojian">医疗保健</string>
+
+    <string name="muyingtongzhuang">母婴童装</string>
+
+    <string name="yundonghuwai">运动户外</string>
+
+    <string name="jiajvjiazhuang">家居家装</string>
+
+    <string name="xiuxianlingshi">休闲零食</string>
+
+    <string name="zhongwaimingjiu">中外名酒</string>
+
+    <string name="jingdongshengxian">京东生鲜</string>
+
+    <string name="liangyoutiaowei">粮油调味</string>
+
+    <string name="shuiyinmingcha">水饮茗茶</string>
+
+    <string name="jinkoushipin">进口食品</string>
+
+    <string name="jianguochaohuo">坚果炒货</string>
+
+    <string name="tangguoqiaokeli">糖果/巧克力</string>
+
+    <string name="penghuashipin">膨化食品</string>
+
+    <string name="rouganroupu">肉干肉脯</string>
+
+    <string name="binggandangao">饼干蛋糕</string>
+
+    <string name="mijianguogan">蜜饯果干</string>
+
+    <string name="ditangshipin">低糖食品</string>
+
+    <string name="zhonghualaozihao">中华老字号</string>
+
+    <string name="baijiu">白酒</string>
+
+    <string name="putaojiu">葡萄酒</string>
+
+    <string name="yangjiu">洋酒</string>
+
+    <string name="pijiu">啤酒</string>
+
+    <string name="huangjiuyangshengjiu">黄酒/养生酒</string>
+
+    <string name="chennianlaojiu">陈年老酒</string>
+
+    <string name="xinxianshuiguo">新鲜水果</string>
+
+    <string name="haixianshuichan">海鲜水产</string>
+
+    <string name="jingxuanroulei">精选肉类</string>
+    <string name="jingxiangzhi">京享值</string>
+    <string name="danlei">蛋类</string>
+    <string name="jingdou">京豆</string>
+    <string name="xinxianshucai">新鲜蔬菜</string>
+
+    <string name="sudongshipin">速冻食品</string>
+
+    <string name="rupinlengyin">乳品冷饮</string>
+
+    <string name="dazhaxie">大闸蟹</string>
+
+    <string name="mangguo">芒果</string>
+
+    <string name="guanzhu">关注</string>
+
+    <string name="tuijian">推荐</string>
+
+    <string name="buluo">部落</string>
+
+    <string name="quanbu">全部</string>
+
+    <string name="jiangjia">降价</string>
+
+    <string name="changmai">常卖</string>
+
+    <string name="bianji">编辑</string>
+
+    <string name="xiaoxi">消息</string>
+
+    <string name="fenxiang">分享</string>
+
+    <string name="quanxuan">全选</string>
+
+    <string name="heji">合计</string>
+
+    <string name="qujiesuan">去结算</string>
+
+    <string name="qucoudan">去凑单</string>
+
+
+    <string name="wode618">我的618</string>
+    <string name="daifukuan">待付款</string>
+
+    <string name="daishouhuo">待收货</string>
+
+    <string name="daipingjia">待评价</string>
+
+    <string name="tuihuanshouhou">退换/售后</string>
+
+    <string name="wodedingdan">我的订单</string>
+    <string name="chakandianzifapiao">查看电子发票</string>
+
+    <string name="baitiao">白条</string>
+    <string name="xiangshengqian">想省钱点这里</string>
+    <string name="jingdongjintiao">京东金条</string>
+
+    <string name="wodeqianbao">我的钱包</string>
+
+    <string name="dongdongnongchang">咚咚农场</string>
+
+    <string name="qiandaolingdou">签到领豆</string>
+
+    <string name="wenyisheng">问医生</string>
+
+    <string name="kehufuwu">客户服务</string>
+    <string name="wodeyuyue">我的预约</string>
+    <string name="jijianfuwu">寄件服务</string>
+    <string name="gengduogongju">更多工具</string>
+    <string name="jingdongshengqianka">京东省钱卡</string>
+    <string name="fengkuangdejoy">疯狂的JOY</string>
+    <string name="yaoqianshu">摇钱树</string>
+    <string name="dongdongaixiaochu">东东爱消除</string>
+    <string name="xianzhihuanqian">闲置换钱</string>
+
+    <string name="jingdonghuiyuan">京东会员</string>
+
+    <string name="dongdongmengchong">冬冬萌宠</string>
+
+    <string name="changguangchangyong">常逛常用</string>
+    <string name="changyongfenlei">常用分类</string>
+    <string name="dingzhi">定制</string>
+
+    <string name="guangyiguang">逛一逛</string>
+
+    <string name="wodewenda">我的问答</string>
+
+    <string name="wodejinrongzhushou">我的金融助手</string>
+
+    <string name="quhuida">去回答</string>
+
+    <string name="wodejiankangzhuye">我的健康主页</string>
+
+    <string name="wodejiatinghao">我的家庭号</string>
+
+    <string name="shangpinshoucang">商品收藏</string>
+    <string name="dianpuguanzhu">店铺关注</string>
+    <string name="xihuandeneirong">喜欢的内容</string>
+    <string name="liulanjilu">浏览记录</string>
+    <string name="lijipingjia">立即评价</string>
+    <string name="xiaobaichengzhangfen">小白成长分</string>
+    <string name="jiatinghao">家庭号</string>
+    <string name="dianyaliguo">电压力锅</string>
+    <string name="zhuangchangtuijian">专场推进</string>
+    <string name="remenfenlei">热门分类</string>
+    <string name="weinituijian">为你推荐</string>
+    <string name="jujiaxianfeng">居家先锋</string>
+    <string name="test">测试类语句，不为最终产品</string>
+
+    <!--    百越负责部分-->
+    <string name="beans">领京豆</string>
+    <string name="crown">PLUS会员</string>
+    <string name="electricalAppliances">京东电器</string>
+    <string name="fruiter">免费水果</string>
+    <string name="mobilePhone">生活服务</string>
+    <string name="shoe">潮流服饰</string>
+    <string name="supermarket">京东超市</string>
+    <string name="vouchers">领券</string>
+    <string name="wallet">借钱</string>
+    <string name="goHome">京东到家</string>
+</resources>

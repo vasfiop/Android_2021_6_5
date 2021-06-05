@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/include_LinearLayout"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="63"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/jingdou"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/lingjingdou"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/youhuijuan"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/null_str"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0.00"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/baitiao"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/xiangshengqian"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_h1"
+            android:text="0.00"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/jingdongxiaojinku"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/zuorishouyi"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/red" />
+
+    <LinearLayout
+        style="@style/width_1"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/small_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/me_qianbao" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginBottom="0dp"
+            android:text="@string/wodeqianbao"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/small_txt"
+            android:layout_marginTop="0dp"
+            android:text="@string/null_str"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/bggray" />
+
+    <LinearLayout
+        style="@style/PC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/FF_imgbtn_head"
+            style="@style/small_radiobtn"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            style="@style/CP"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/FF_txt_first_names"
+                style="@style/height_1"
+                android:text="@string/jujiaxianfeng"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/FF_txt_fensi"
+                style="@style/height_1"
+                android:text="3.5w粉丝"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/width_alone" />
+
+        <Button
+            style="@style/CP"
+            android:background="@color/white"
+            android:text="@string/guanzhu" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/FF_txt_speak"
+        style="@style/PC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/test"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/FF_img_show"
+        style="@style/CC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/test" />
+
+    <LinearLayout
+        style="@style/PC"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/CC"
+            android:src="@drawable/guancha" />
+
+        <LinearLayout style="@style/width_alone" />
+
+        <ImageView
+            style="@style/CC"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/aixin" />
+
+        <ImageView
+            style="@style/CC"
+            android:src="@drawable/liaotian" />
+
+    </LinearLayout>
+
+</LinearLayout>
