@@ -19,7 +19,8 @@
 
         <ImageButton
             android:id="@+id/FF_imgbtn_head"
-            style="@style/small_radiobtn"
+            style="@style/radiobtn"
+            android:background="@color/white"
             android:src="@drawable/logo" />
 
         <LinearLayout
@@ -32,7 +33,7 @@
                 style="@style/height_1"
                 android:text="@string/jujiaxianfeng"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="14dp" />
 
             <TextView
                 android:id="@+id/FF_txt_fensi"
