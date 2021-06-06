@@ -1,36 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/bggray"
-    android:orientation="vertical"
     android:paddingLeft="15dp"
-    android:paddingRight="15dp">
+    android:paddingRight="15dp"
+    android:scrollbars="none">
 
-    <!--    TODO 实现 你还没有关注的人哟-->
-    <ImageView
-        style="@style/PC"
-        android:layout_marginBottom="20dp"
-        android:background="@color/white"
-        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <!--    TODO 实现一个特别花里胡哨的标题性文字-->
-    <TextView
-        style="@style/PC"
-        android:background="@color/bggray"
-        android:gravity="center"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:text="@string/weinituijian"
-        android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/FF_listview"
-        style="@style/PC"
-        android:background="@color/bggray"
-        android:fastScrollEnabled="false"
-        android:scrollbars="none" />
+            <ImageView
+                style="@style/big_img"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@color/white"
+                android:src="@drawable/haimeiyouguanzhuderen" />
 
-</LinearLayout>
+            <TextView
+                style="@style/small_txt"
+                android:text="@string/haimeiyouguanzhuderen" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/txt_h1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/bggray"
+            android:gravity="center"
+            android:text="@string/weinituijian"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/FF_linear"
+            style="@style/PC"
+            android:background="@color/bggray"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
 
 

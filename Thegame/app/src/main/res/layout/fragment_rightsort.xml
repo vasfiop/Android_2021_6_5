@@ -6,15 +6,32 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp">
 
-    <!--    TODO 轮播图-->
-    <TextView
+    <ViewFlipper
+        android:id="@+id/RF_viewflipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@color/clickred"
-        android:text="轮播图" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/right_in"
+        android:outAnimation="@anim/right_out">
 
-    <!--    TODO 需要解决一下ScrolView嵌套GridView的问题-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rightsort_first_lunbo_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rightsort_first_lunbo_2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rightsort_first_lunbo_3" />
+
+    </ViewFlipper>
 
     <TextView
         style="@style/FS_fragmentfirst_textview"

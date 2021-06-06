@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View style="@style/width_alone" />
+
+    <LinearLayout
+        style="@style/CC"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt"
+            android:text="@string/gouwuche" />
+
+        <TextView
+            style="@style/small_txt"
+            android:text="@string/peisongzhi" />
+
+    </LinearLayout>
+
+    <View style="@style/width_alone" />
+
+
+</LinearLayout>

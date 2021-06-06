@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/txt"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/xiuxianlingshi"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:id="@+id/RF_gridlayout_first_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3" />
+
+    <TextView
+        style="@style/txt"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/zhongwaimingjiu"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:id="@+id/RF_gridlayout_first_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="2" />
+
+    <TextView
+        style="@style/txt"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/jingdongshengxian"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:id="@+id/RF_gridlayout_first_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="4" />
 
 </LinearLayout>

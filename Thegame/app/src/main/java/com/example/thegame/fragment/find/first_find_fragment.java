@@ -1,23 +1,19 @@
 package com.example.thegame.fragment.find;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.thegame.R;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class first_find_fragment extends Fragment {
     final private String[] name = {"居家先锋", "不加滤镜的YY酱", "家电聚焦", "精品惠美妆小能手"};
@@ -31,39 +27,51 @@ public class first_find_fragment extends Fragment {
     };
     final private int[] img_show = {R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test};
     private View view;
-    private ListView listView;
+
+    private TextView txt_name, txt_fensi, txt_speak;
+    private ImageButton imageButton;
+    private ImageView imageView;
+
+    private LinearLayout linearLayout;
+    private LayoutInflater layoutInflater;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_firstfind, container, false);
 
-        listViewinit();
+        layoutInflater = LayoutInflater.from(getActivity());
+
+        init();
+
+        set();
 
         return view;
     }
 
-    @SuppressLint("ClickableViewAccessibility")
-    private void listViewinit() {
-        listView = view.findViewById(R.id.FF_listview);
+    private void set() {
 
-        ArrayList<Map<String, Object>> list1 = new ArrayList<Map<String, Object>>();
-        SimpleAdapter simpleAdapter = new SimpleAdapter(getActivity(), SetData(list1), R.layout.listview_find_item,
-                new String[]{"names", "img_head", "fensi", "speak", "img"}, new int[]{R.id.FF_txt_first_names, R.id.FF_imgbtn_head, R.id.FF_txt_fensi, R.id.FF_txt_speak, R.id.FF_img_show});
-        listView.setAdapter(simpleAdapter);
+        for (int i = 0; i < name.length; i++) {
+            View v = layoutInflater.inflate(R.layout.linearlayout_find_item, linearLayout, false);
+
+            txt_name = v.findViewById(R.id.FF_txt_first_names);
+            txt_fensi = v.findViewById(R.id.FF_txt_fensi);
+            txt_speak = v.findViewById(R.id.FF_txt_speak);
+            imageButton = v.findViewById(R.id.FF_imgbtn_head);
+            imageView = v.findViewById(R.id.FF_img_show);
+
+            imageView.setImageResource(img_show[i]);
+            txt_name.setText(name[i]);
+            txt_fensi.setText(fensi[i]);
+            txt_speak.setText(speak[i]);
+            imageButton.setImageResource(img_head[i]);
+
+            linearLayout.addView(v);
+        }
+
     }
 
-    private List<Map<String, Object>> SetData(ArrayList<Map<String, Object>> list) {
-        for (int i = 0; i < name.length; i++) {
-            Map<String, Object> map = new HashMap<String, Object>();
-            map.put("names", name[i]);
-            map.put("img_head", img_head[i]);
-            map.put("fensi", fensi[i]);
-            map.put("speak", speak[i]);
-            map.put("img", img_show[i]);
-
-            list.add(map);
-        }
-        return list;
+    private void init() {
+        linearLayout = view.findViewById(R.id.FF_linear);
     }
 }

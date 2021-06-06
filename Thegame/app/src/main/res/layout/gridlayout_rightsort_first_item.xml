@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/RF_img_first"
+        style="@style/img"
+        android:layout_gravity="center"
+        android:src="@drawable/test_red_64" />
+
+    <TextView
+        android:id="@+id/RF_txt_first"
+        style="@style/small_txt"
+        android:text="@string/jianguochaohuo"
+        android:textColor="@color/black" />
 
 </LinearLayout>

@@ -38,6 +38,7 @@
     <string name="PLUShuiyuan">PLUS会员</string>
     <string name="chongwangwang">宠汪汪</string>
     <string name="jingdongmiaosha">京东秒杀</string>
+    <string name="peisongzhi">配送至:软件园路8好大连东软信息学院</string>
 
     <string name="jingdongzhibo">京东直播</string>
 
@@ -145,6 +146,8 @@
     <string name="dazhaxie">大闸蟹</string>
 
     <string name="mangguo">芒果</string>
+    <string name="yinyongshui">饮用水</string>
+    <string name="haimeiyouguanzhuderen">你还没有关注的人</string>
 
     <string name="guanzhu">关注</string>
 

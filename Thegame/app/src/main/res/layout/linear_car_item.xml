@@ -3,13 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="10dp"
-
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <RadioGroup
@@ -35,6 +36,7 @@
                 android:src="@drawable/store" />
 
             <TextView
+                android:id="@+id/CF_txt_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -59,6 +61,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/shape_corners"
                 android:text="优惠券"
                 android:textColor="@color/red" />
@@ -76,10 +79,8 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-
-            >
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -98,6 +99,7 @@
                 </RadioGroup>
 
                 <ImageView
+                    android:id="@+id/CF_img"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -115,15 +117,23 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/CF_txt_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
                 android:text="乡间生活(Country Life) 香皂羊奶皂 澳洲原装进口沐浴清洁无添加婴儿孕妇可用" />
 
             <TextView
+                android:id="@+id/CF_txt_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/shape_gradient"
+                android:ellipsize="end"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 android:text="原味" />
 
             <TextView
@@ -149,16 +159,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/CF_txt_money"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:text="￥18.90"
-                    android:textColor="@color/red" />
+                    android:textColor="@color/red"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/quanbu"
+            android:textColor="@drawable/select_find_text" />
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/changmai"
+            android:textColor="@drawable/select_find_text" />
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/jiangjia"
+            android:textColor="@drawable/select_find_text" />
+
+        <RadioButton
+            style="@style/radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/fenlei"
+            android:textColor="@drawable/select_find_text" />
+
+    </RadioGroup>
+
+</LinearLayout>

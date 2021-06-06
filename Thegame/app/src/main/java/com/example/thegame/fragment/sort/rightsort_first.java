@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
+import android.widget.ViewFlipper;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +32,8 @@ public class rightsort_first extends Fragment {
     private View view;
     private ArrayList<Map<String, Object>> list;
 
+    private ViewFlipper viewFlipper;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -38,7 +41,14 @@ public class rightsort_first extends Fragment {
 
         gridViewinit();
 
+        flipperinit();
+
         return view;
+    }
+
+    private void flipperinit() {
+        viewFlipper = view.findViewById(R.id.RF_viewflipper);
+        viewFlipper.startFlipping();
     }
 
     private void gridViewinit() {
