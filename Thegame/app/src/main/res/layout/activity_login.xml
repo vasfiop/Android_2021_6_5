@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -93,11 +94,6 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            style="@style/small_btn"
-            android:background="@color/white"
-            android:stateListAnimator="@null"
-            android:text="新用户注册" />
 
         <Button
             style="@style/small_btn"
@@ -137,24 +133,28 @@
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:src="@drawable/test_red_16" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:src="@drawable/test_red_16" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:src="@drawable/test_red_16" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:src="@drawable/test_red_16" />
 
         </LinearLayout>
