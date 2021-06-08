@@ -31,6 +31,7 @@
         style="@style/PC"
         android:gravity="center">
 
+        <!--        TODO 抠图-->
         <ImageView
             style="@style/big_img"
             android:layout_width="128dp"
@@ -128,7 +129,7 @@
             style="@style/PC"
             android:gravity="center"
             android:orientation="horizontal">
-
+            <!--        TODO 抠图-->
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
