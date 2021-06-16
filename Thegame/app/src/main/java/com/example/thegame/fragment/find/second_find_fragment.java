@@ -21,7 +21,8 @@ import java.util.Map;
 public class second_find_fragment extends Fragment {
     private View view;
 
-    final private int[] imgs = {R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test, R.drawable.test};
+    final private int[] imgs = {R.drawable.find_second_bn, R.drawable.find_second_bshan, R.drawable.find_second_buyaaan, R.drawable.find_second_buyaan,
+            R.drawable.find_second_uyaoshan, R.drawable.find_second_buyn, R.drawable.find_second_buyan, R.drawable.find_second_buyawwn};
     final private String[] show = {
             "iPhone 12白色版开箱贴膜：颜值非常高！",
             "黑科技机器人来了，他扫地拖地，你只需要到脏垃圾",
@@ -32,7 +33,7 @@ public class second_find_fragment extends Fragment {
             "兰蔻粉水难用的真想，要这样用才对",
             "苹果12 Pro max 后置三摄手机，你会喜欢吗"
     };
-    final private int[] head_img = {R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo};
+    final private int[] head_img = {R.drawable.find_head_five, R.drawable.find_head_six, R.drawable.find_head_seven, R.drawable.find_head_eight, R.drawable.find_head_nine, R.drawable.find_head_ten, R.drawable.find_head_11, R.drawable.find_head_12};
     final private String[] names = {"惊叹者", "冷冷种草", "大幅贵贵", "飞天峰0532", "羊羊生活馆", "金士顿京东", "羊羊生活馆", "丹尼尔菌"};
     final private String[] shownum = {"255", "564", "654", "123", "12", "64", "987", "9783"};
 

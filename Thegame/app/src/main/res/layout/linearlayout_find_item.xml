@@ -56,7 +56,6 @@
         android:text="@string/test"
         android:textColor="@color/black" />
 
-    <!--    TODO 需要抠图-->
     <ImageView
         android:id="@+id/FF_img_show"
         style="@style/CC"

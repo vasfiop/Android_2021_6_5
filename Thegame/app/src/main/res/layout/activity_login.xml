@@ -31,11 +31,11 @@
         style="@style/PC"
         android:gravity="center">
 
-        <!--        TODO 抠图-->
         <ImageView
             style="@style/big_img"
             android:layout_width="128dp"
             android:layout_height="128dp"
+            android:src="@drawable/lonin_head"
             android:background="@drawable/corners_128" />
 
     </LinearLayout>
@@ -129,34 +129,33 @@
             style="@style/PC"
             android:gravity="center"
             android:orientation="horizontal">
-            <!--        TODO 抠图-->
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:src="@drawable/test_red_16" />
+                android:src="@drawable/login_footer_alabsz1" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:src="@drawable/test_red_16" />
+                android:src="@drawable/login_footer_alabsz2" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:src="@drawable/test_red_16" />
+                android:src="@drawable/login_footer_alabsz3" />
 
             <ImageButton
                 style="@style/small_imgbtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:src="@drawable/test_red_16" />
+                android:src="@drawable/login_footer_alabsz4" />
 
         </LinearLayout>
 
